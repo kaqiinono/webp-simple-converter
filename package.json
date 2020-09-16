@@ -1,12 +1,13 @@
 {
   "name": "webp-simple-converter",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "A small node.js library for converting any image to webp file format or converting webp image to any image file format.",
   "main": "src/webpconverter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "publish": "npm publish --access public"
+    "publish": "npm publish --access public",
+    "patch": "npm version patch -m 'Update Version patch by NPM' | xargs git push origin && git push"
   },
   "repository": {
     "type": "git",

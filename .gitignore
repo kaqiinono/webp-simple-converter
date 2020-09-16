@@ -1,4 +1,18 @@
 examples/dist/
 lib/
-node_modules/
 .npmignore
+
+# dependencies
+/node_modules
+
+# production
+/dist
+
+# misc
+.DS_Store
+npm-debug.log*
+*.xml
+*.iml
+.DS_Store
+.idea
+
