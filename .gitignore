@@ -2,17 +2,17 @@ examples/dist/
 lib/
 .npmignore
 
-# dependencies
-/node_modules
-
-# production
-/dist
-
-# misc
-.DS_Store
-npm-debug.log*
-*.xml
-*.iml
-.DS_Store
-.idea
+## dependencies
+#/node_modules
+#
+## production
+#/dist
+#
+## misc
+#.DS_Store
+#npm-debug.log*
+#*.xml
+#*.iml
+#.DS_Store
+#.idea
 
